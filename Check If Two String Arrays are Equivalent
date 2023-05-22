@@ -1,4 +1,4 @@
-class Solution(object)
+class Solution(object):
     def arrayStringsAreEqual(self, word1, word2):
         word3 = ''
         word4 = ''
