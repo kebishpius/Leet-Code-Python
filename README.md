@@ -18,3 +18,5 @@ If you would like to contribute to this repository, please follow these steps:
 3. Make your changes and commit them to your branch.
 4. Push your changes to your fork.
 5. Create a pull request to the main repository.
+# More Information
+For more information on my repository, visit this blog post: https://medium.com/@kebishpius
