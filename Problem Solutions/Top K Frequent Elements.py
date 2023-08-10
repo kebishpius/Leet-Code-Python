@@ -4,7 +4,6 @@ class Solution(object):
         maxes = []
         kmaxes = []
         res = []
-        tracker = 0
         for i in no_dupes:
             maxes.append(nums.count(i))
         for i in range(k):
@@ -13,5 +12,5 @@ class Solution(object):
         for i in no_dupes:
             if nums.count(i) in kmaxes:
                 res.append(i)
-                tracker+=1
         return res
+
