@@ -1,17 +1,14 @@
-# Last updated: 12/14/2025, 10:29:22 AM
+# Last updated: 12/14/2025, 10:30:54 AM
 1class Solution(object):
-2    def getConcatenation(self, nums):
+2    def shuffle(self, nums, n):
 3        ans = []
-4        n = len(nums)
-5        for i in range(n):
-6            ans.append(nums[i])
-7        for i in range(n):
-8            ans.append(nums[i])
-9        return ans
-10        
-11
+4        for i in range(n):
+5            ans.append(nums[i])
+6            ans.append(nums[i+n])
+7        return ans
+8        """
+9        :type nums: List[int]
+10        :type n: int
+11        :rtype: List[int]
 12        """
-13        :type nums: List[int]
-14        :rtype: List[int]
-15        """
-16        
+13        
